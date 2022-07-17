@@ -1,13 +1,8 @@
-#print(5 + 2 * 3)
-#print(8 // 5 - 3)
-#print(16 - 3 / 2 + 7 - 1)
-#print(3 ** 3 % 5)
-#print(5 + 9 * 3 / 2 - 4)
-#print("----------")
-#print((5 + 2) * 3)
-#print((8 // 5) - 3)
-#print(8+ (22 * (2 - 4)))
-#print(16 - 3 / (2 + 7) - 1)
-#print(3 ** (3 % 5))
-#print(5 + (9 * 3 / 2 - 4))
-#print(5 + (9 * 3 / (2 - 4)))
+voting_data = [
+    {"county":"Arapahoe", "registered_voters": 422829}, 
+    {"county":"Denver", "registered_voters": 463353}, 
+    {"county":"Jefferson", "registered_voters": 432438}
+    ]
+
+for county in voting_data:
+    print(f"{county['county']} county has {county['registered_voters']}.")
