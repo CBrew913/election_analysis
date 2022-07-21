@@ -34,4 +34,4 @@ The analysis of the election shows that:
   - Diana DeGette, who recieved 73.8% of the vote and 272,892 total votes.
 
 ## Challenge Summary
-This code can be utilized for future election cycles
+This code can be optimized for future election cycles by collecting further county turnout data, including the percentage of registered voters participating or the demographic for each voter. This data could give more insight into the voting population to target and the success of each campaign with different groups. 
